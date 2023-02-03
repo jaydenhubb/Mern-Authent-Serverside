@@ -20,7 +20,7 @@ const sendEmail = async (
       pass: process.env.EMAIL_PASS,
     },
     tls: {
-      rejectUnauthorized: true,
+      rejectUnauthorized: false,
     },
   });
 
