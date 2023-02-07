@@ -23,6 +23,7 @@ const sendEmail = async (
       rejectUnauthorized: false,
     },
   });
+  
 
   // handle bar options
   const handleBarsOptions = {
